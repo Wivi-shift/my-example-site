@@ -1,0 +1,98 @@
+
+<html>
+<body> 
+<center>
+<div style="background-color:white;" " style="font-size:30px;" " style="border:20px"><br>
+<h1><img align="left"src="logo6.jpg" style="width:10%" "height:6%"align="left-side">LISA DRIVING SCHOOL </h1>Call us on  <b>0782770784.</b>
+</div>
+<style>
+body
+{
+background-color:gray;
+}
+footer
+{
+background-color:white;
+color:black;
+}
+p
+{
+border-radius:5px;
+color:black;
+background-color:white;
+padding:15px 10px;
+display:inline-block;
+}
+</style>
+
+<ul>
+  <p><a href="D-drvhome.html">HOME</a></p>
+  <p><a href="D-drvaboutus.html">ABOUT US</a></p>
+  <p><a href="D-drvimages.html">IMAGES</a></p>
+  <p><a href="D-drvreg.html">REGISTRATION FORM</a></p>
+   
+</ul>
+</center>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+<img src="Image3.jpg" style="width:100%" "height:600%">
+    </div>
+   
+    <div class="mySlides fade">
+      <img src="Image2.jpg"style="width:100%" "height:1200%">
+    </div>
+    <br>
+   
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+   
+    <script>
+    var slideIndex = 0;
+    showSlides();
+   
+    function showSlides()
+     {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++)
+      {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 60 seconds
+    }
+
+</script>      
+</body>
+<footer>
+<p><b>LISA DRIVING SCHOOL</b><br><br>                                  
+Lisa Driving School is the modern school <br>
+that provide driving trainiing in Rwanda.<br>
+ with experienced instructors Apaforme driving <br>
+ school is the best driving shool in Rwanda.</p>
+ 
+ <p><b>LOCATION </b><br>
+ 
+ KK 243 st,Near Kicukiro Equity Bank<br>
+ Call us: 0782770784<br>
+ Email: Lisadrivingschool@gmail.com 
+ </p> 
+ 
+ 
+ 
+
+ Copyright 2021 - Lisa Driving school . All Rights Reserved .
+</footer>
+</html>
